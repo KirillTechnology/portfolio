@@ -1,0 +1,165 @@
+/***** Warning *****/
+
+.warning {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.warning-logo {
+    background: rgb(255, 80, 80);
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+}
+
+.warning-sep {
+    background: rgb(0, 0, 0);
+    width: 4px;
+    align-self: stretch;
+}
+
+.warning p {
+    padding: 3%;
+    margin: 0;
+    font-size: 18px;
+}
+
+.warning p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .warning {
+        flex-direction: column;
+    }
+
+    .warning-logo {
+        width: 100%;
+    }
+
+    .warning-sep {
+        width: 100%;
+        height: 2px;
+    }
+}
+
+
+
+
+
+/***** Warning2 *****/
+
+.warning2 {
+    display: flex;
+    align-items: center;
+    background: rgb(22, 22, 22);
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+.warning2-logo {
+    background: rgb(22, 22, 22);
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+}
+
+.warning2-sep {
+    background: rgb(0, 0, 0);
+    width: 4px;
+    align-self: stretch;
+}
+
+.warning2 p {
+    padding: 3%;
+    margin: 0;
+    font-size: 16px;
+}
+
+.warning2 p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+@media (max-width: 600px) {
+    .warning2 {
+        flex-direction: column;
+    }
+
+    .warning2-logo {
+        width: 100%;
+    }
+
+    .warning2-sep {
+        width: 100%;
+        height: 2px;
+    }
+}
+
+
+
+
+
+/***** Attention *****/
+
+.attention {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.attention-logo {
+    background: rgb(243, 255, 80);
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+}
+
+.attention-sep {
+    background: rgb(0, 0, 0);
+    width: 4px;
+    align-self: stretch;
+}
+
+.attention p {
+    padding: 3%;
+    margin: 0;
+    font-size: 18px;
+}
+
+.attention p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .attention {
+        flex-direction: column;
+    }
+
+    .attention-logo {
+        width: 100%;
+    }
+
+    .attention-sep {
+        width: 100%;
+        height: 2px;
+    }
+}

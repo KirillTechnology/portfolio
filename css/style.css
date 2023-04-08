@@ -42,7 +42,7 @@ header {
     box-sizing: border-box;
     height: 50px;
     /* width: 1000px; */
-    width: min(100%, 764px);
+    width: min(100%, 700px);
     align-items: center;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -55,7 +55,7 @@ header {
     background: rgba(0, 0, 0, 0);
     width: 250px;
     height: 100%;
-    padding: 0 0 0 1rem;
+    /* padding: 0 0 0 1rem; */
 }
 
 .logo-img {
@@ -91,7 +91,7 @@ nav.top {
     align-items: center;
     gap: 30px;
     height: 100%;
-    padding: 0 1rem 0 0;
+    /* padding: 0 1rem 0 0; */
 }
 
 nav.top a {
@@ -102,6 +102,12 @@ nav.top a {
 nav.top a:hover {
     color: rgb(239, 57, 57);
     text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    div.navbar {
+        padding: 0 0.5rem;
+    }
 }
 
 @media (max-width: 600px) {
@@ -163,7 +169,7 @@ button span hr {
     background: rgba(0, 0, 0, 0);
     border: none;
     font-size: 14px;
-    margin: 0 1rem 0 0;
+    margin: 0 0.5rem 0 0;
     padding: 10px;
     color: white;
     transition: all 0.3s;

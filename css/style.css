@@ -499,6 +499,10 @@ p {
         height: unset;
         background: rgb(255, 255, 255);
         margin: 0 0.5rem;
+
+        /* Test and delete */
+        box-shadow: none;
+        border: 2px solid black;
     }
 
     div.content-center video {
@@ -526,10 +530,6 @@ p {
     div.content-center a {
         color: rgb(170, 16, 16);
         /* text-shadow: 0 0 20px black; */
-    }
-
-    div.grid1 {
-        margin: 0 0.5rem;
     }
 
 }

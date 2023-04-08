@@ -38,6 +38,7 @@
 @media (max-width: 600px) {
     .warning {
         flex-direction: column;
+        margin: 0 0.5rem;
     }
 
     .warning-logo {
@@ -96,6 +97,7 @@
 @media (max-width: 600px) {
     .warning2 {
         flex-direction: column;
+        margin: 0 0.5rem;
     }
 
     .warning2-logo {
@@ -152,6 +154,7 @@
 @media (max-width: 600px) {
     .attention {
         flex-direction: column;
+        margin: 0 0.5rem;
     }
 
     .attention-logo {

@@ -225,6 +225,13 @@ div.banner {
     position: absolute;
 }
 
+.video-banner {
+    width: 100%;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+
 .gradient-banner {
     position: absolute;
     width: 100%;
@@ -237,6 +244,19 @@ div.banner {
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, black, 50%, rgba(255, 0, 0, 0.2));
+}
+
+@media (max-width: 600px) {
+
+    div.banner {
+        height: 100px;
+    }
+
+    .video-banner {
+        height: 100px
+    }
+
+
 }
 
 
@@ -520,14 +540,6 @@ video {
     object-fit: cover;
     box-sizing: border-box;
 }
-
-.video-banner {
-    width: 100%;
-    height: 140px;
-    position: relative;
-    overflow: hidden;
-}
-
 
 
 

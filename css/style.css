@@ -501,7 +501,7 @@ p {
         margin: 0 0.5rem;
 
         /* Test and delete */
-        box-shadow: none;
+        /* box-shadow: none; */
         border: 2px solid black;
     }
 

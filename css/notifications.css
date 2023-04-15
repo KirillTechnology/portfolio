@@ -27,7 +27,7 @@
 .warning p {
     padding: 3%;
     margin: 0;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 .warning p:first-child {
@@ -85,7 +85,7 @@
 .warning2 p {
     padding: 3%;
     margin: 0;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .warning2 p:first-child {
@@ -143,7 +143,7 @@
 .attention p {
     padding: 3%;
     margin: 0;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 .attention p:first-child {

@@ -37,6 +37,7 @@ div.slideshow {
     height: 40px;
     cursor: pointer;
     font-size: 20px;
+    text-align: center;
 }
 .control button:hover {
     font-weight: bold;

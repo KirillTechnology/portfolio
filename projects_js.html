@@ -93,8 +93,40 @@
 
         <div class="content-center">
 
+            <video autoplay muted loop playsinline poster="./projects/js/user_check/AWS_demo_poster.png">
+                <source src="./projects/js/user_check/AWS_demo.mp4" type="video/mp4">
+            </video>
+
+            <div>
+
+                <h2>App protection with AWS</h2>
+
+                <!-- <p><b>Express app</b></p> -->
+                <p>Express.js app written as AWS (Amazon Web Services) Lambda function that gives acces to your 
+                    app only to authorised users. All user logs (POST requests) are saved in PostgreSQL database 
+                    (Amazon RDS). Users can be manually blocked. Lambda is triggered with AWS API Gateway. Plus, 
+                    additional offline protection.</p>
+                
+                <!-- <p><b>Satistics email</b></p> -->
+                <p>AWS Lambda sends email with statistics every week using nodemailer library. Email service is 
+                    protected with google OAuth2. Lambda is triggered with a Rule (Cron expression) in EventBridge 
+                    (CloudWatch Event). Default 3s Lambda timeout is increased in case of long requests. Debugged 
+                    in CloudWatch logs.</p>
+
+                <!-- <p><b>Amazon Web Services (AWS) &ensp; OAuth2 &ensp; Express.js &ensp; PostgreSQL </b></p> -->
+
+                <p>
+                    <a>Update coming soon ...</a>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="content-center">
+
             <video autoplay muted loop playsinline poster="./projects/js/tech_store/tech_store_poster.jpeg">
-                <source src="" type="video/mp4">
+                <source src="./video/AWS.mp4" type="video/mp4">
             </video>
 
             <div>
@@ -151,7 +183,7 @@
 
         <div class="content-center">
 
-            <video autoplay muted loop playsinline poster="./projects/js/carousel/carousel_poster.png">
+            <video autoplay muted loop playsinline poster="./projects/js/carousel/carousel_poster.png" style="object-position: 50% 70%;">
                 <source src="./projects/js/carousel/carousel_demo_c.mp4" type="video/mp4">
             </video>
 

@@ -402,10 +402,14 @@ div.content-center {
     box-shadow: 0 0 10px black;
     padding: 0;
     height: 340px;
+    overflow: hidden;
 }
 
 div.content-center video {
-    border: 0;
+    /* border: 0; */
+    width: 101%;
+    position: relative;
+    left: -1px;
     height: 100%;
     box-shadow: none;
     border-radius: inherit;
@@ -499,7 +503,7 @@ p {
         height: unset;
         background: rgb(255, 255, 255);
         margin: 0 0.5rem;
-
+        overflow: hidden;
         /* Test and delete */
         /* box-shadow: none; */
         border: 2px solid black;
@@ -507,6 +511,9 @@ p {
 
     div.content-center video {
         height: 300px;
+        width: 100%;
+        left: 0;
+        /* width: 100%; */
         border: 2px solid transparent;
     }
 
@@ -541,10 +548,10 @@ p {
 /***** Video *****/
 
 video {
+    box-sizing: border-box;
     width: 100%;
     display: block;
     object-fit: cover;
-    box-sizing: border-box;
 }
 
 

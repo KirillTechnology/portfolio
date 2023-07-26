@@ -426,7 +426,7 @@ div.content-center img {
 
 div.content-center div {
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     box-sizing: border-box;
@@ -563,6 +563,7 @@ video {
 footer {
     height: 40px;
     background-color: rgba(0, 0, 0, 0.95);
+    box-shadow: 0 1px 0 black;
 }
 
 footer div {

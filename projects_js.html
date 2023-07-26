@@ -111,7 +111,7 @@
                 <p>AWS Lambda sends email with statistics every week using nodemailer library. Email service is 
                     protected with google OAuth2. Lambda is triggered with a Rule (Cron expression) in EventBridge 
                     (CloudWatch Event). Default 3s Lambda timeout is increased in case of long requests. Debugged 
-                    in CloudWatch logs.</p>
+                    in CloudWatch logs. Sensitive info (keys) stored as Lambda environment variables.</p>
 
                 <!-- <p><b>Amazon Web Services (AWS) &ensp; OAuth2 &ensp; Express.js &ensp; PostgreSQL </b></p> -->
 

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9D0249ZYVK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9D0249ZYVK');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Home page</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="topbar">
+            <div class="navbar">
+
+                <div class="logo">
+                    <a href="./index.html" style="text-decoration: none">
+                        <p>Kirill Semenov</p>
+                    </a>
+                </div>
+
+                <nav class="top">
+                    <a href="./index.html">Home</a>
+                    <a href="./projects_js.html">Projects</a>
+                    <a href="./books.html">Books</a>
+                    <a href="./test.html">Test</a>
+                    <!-- <a href="./contacts.html">Contacts</a> -->
+                </nav>
+
+                <button class="btn-menu">
+                    <span>
+                        <hr id="hr1">
+                        <hr id="hr2">
+                        <hr id="hr3">
+                    </span>
+                </button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="banner">
+
+        <img src="./img/3.png" alt="">
+        <div class="gradient-banner-br"></div>
+
+    </div>
+
+    <div class="sheet">
+
+        <div class="content2">
+
+            <h1>Online Store</h1>
+
+            <p>React online store. Navigation is implemented with ReactRouter library. Authentication,
+                registration and database are processed with google Firebase cloud service. User information, products
+                and shopping cart are managed with Redux, Reselect and stored with Redux-Persist. Components are styled
+                with SASS and Styled-components library. Notification component is managed with React
+                Context, which is shown when a new item is added to a cart. The application is deployed on Netlify.</p>
+
+            <p>Different version of this project (implemented with various technologies) are shown below on this page.
+                You can access them by checking out the specified branches on my GitHub.</p>
+
+            <p><b>React &ensp; JSX &ensp; Firebase &ensp; SASS &ensp; StyledComponents &ensp; ReactRouter &ensp; Redux
+                    &ensp; Reselect &ensp; Redux-Persist &ensp;
+                    Redux-Thunk &ensp; Redux-Saga &ensp; Netlify</b></p>
+
+            <p>
+                <a href="https://joyful-kulfi-39f626.netlify.app">Live demo</a>
+                &ensp;
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy5_Redux_Reselect_Persist">GitHub</a>
+                &ensp;
+                <a href="./projects_js.html">Back to all projects</a>
+            </p>
+
+            <!-- <p><a href="./projects_js.html">&#8678; Back to all projects</a></p> -->
+            <!-- <p><a href="https://joyful-kulfi-39f626.netlify.app">Live demo</a></p>
+            <p><a href="https://github.com/KirillTechnology/tech_store/tree/deploy5_Redux_Reselect_Persist">GitHub</a></p>
+            <p><a href="./projects_js.html">Back to all projects</a></p> -->
+        </div>
+
+        <div class="content3" style="padding:0;border:0">
+            <video autoplay muted loop playsinline poster="./projects/js/tech_store/tech_store_demo_poster.png"
+                width="100%">
+                <source src="./projects/js/tech_store/tech_store_demo.mov" type="video/mp4">
+            </video>
+        </div>
+
+
+        <div class="content2">
+            <h3>Branch 1</h3>
+            <p>React online store. Navigation is implemented with ReactRouter library. Authentication,
+                registration, database are processed with Firebase cloud service. User info, products
+                and shopping cart are managed with Redux, Reselect and stored with Redux-Persist. Components are styled
+                with SASS and Styled-components library. Notification component is managed with React
+                Context. Deployed on Netlify</p>
+            <p>
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy5_Redux_Reselect_Persist">GitHub</a>
+            </p>
+        </div>
+
+        <div class="content2">
+            <h3>Branch: deploy2_with_reducer</h3>
+
+            <p style="white-space:pre-line">Added Reducer to UserContext
+            Added Reducer to CartContext
+            Added createAction helper function</p>
+
+            <p>
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy2_with_reducer">GitHub</a>
+            </p>
+        </div>
+
+        <div class="content2">
+            <h3>Branch: deploy3_with_redux</h3>
+
+            <p style="white-space:pre-line">Added userReducer to Redux and updated App.js and Navigation.jsx
+            Created store/categories
+            Added categoriesReducer to Redux adn updated index, Shop, CategoriesPreview and Category
+            Changed getCategoriesAndDocuments() and selectCategoriesMap()
+            Added custom logger in store.js
+            Returned React.StrictMode</p>
+
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy3_with_redux">GitHub</a>
+            </p>
+        </div>
+
+        <div class="content2">
+            <h3>Branch: deploy4_redux_with_reselect</h3>
+            
+            <p style="white-space:pre-line">Added Reselect to categories.selector.js
+            Deleted User and Categories Contexts
+            Created Redux cart store
+            Updated components with Redux cartReducer
+            Deleted cartContext</p>
+            
+            <p>
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy4_redux_with_reselect">GitHub</a>
+            </p>
+        </div>
+       
+        <div class="content2">
+            <h3>Branch: deploy5_Redux_Reselect_Persist</h3>
+            
+            <p style="white-space:pre-line">Added Redux-Persist
+            Moved custom logger to store/middleware
+            Chrome Redux DevTools support in store.js</p>
+            
+            <p>
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy5_Redux_Reselect_Persist">GitHub</a>
+            </p>
+        </div>
+        
+        <div class="content2">
+            <h3>Branch: deploy6_Redux_Thunk</h3>
+            
+            <p style="white-space:pre-line;">Added redux-thunk
+            Loading animation and new R-Thunk selector in Category and CategoryPreview</p>
+            
+            <p>
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy6_Redux_Thunk">GitHub</a>
+            </p>
+        </div>
+        
+        <div class="content2">
+            <h3>Branch: deploy7_Redux_Saga</h3>
+            
+            <p style="white-space:pre-line;">Added Redux-Saga and updated Shop component
+            Updated auth in App with Saga (getCurrentUser)
+            Updates email and google sign in with R-Saga
+            Updated SignUp with R-Saga
+            Updated SignOut with R-Saga</p>
+            
+            <p>
+                <a href="https://github.com/KirillTechnology/tech_store/tree/deploy7_Redux_Saga">GitHub</a>
+            </p>
+        </div>
+        
+        <div class="content2">
+            
+            <p style="margin-top: 0;">More updates comming soon...</p>
+            
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div>
+            <p>///</p>
+        </div>
+
+    </footer>
+
+    <script src='./js/script.js'></script>
+
+</body>
+
+</html>

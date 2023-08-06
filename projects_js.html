@@ -102,15 +102,15 @@
                 <h2>App protection with AWS</h2>
 
                 <!-- <p><b>Express app</b></p> -->
-                <p>Express.js app written as AWS (Amazon Web Services) Lambda function that gives acces to your 
-                    app only to authorised users. All user logs (POST requests) are saved in PostgreSQL database 
-                    (Amazon RDS). Users can be manually blocked. Lambda is triggered with AWS API Gateway. Plus, 
+                <p>Express.js app written as AWS (Amazon Web Services) Lambda function that gives acces to your
+                    app only to authorised users. All user logs (POST requests) are saved in PostgreSQL database
+                    (Amazon RDS). Users can be manually blocked. Lambda is triggered with AWS API Gateway. Plus,
                     additional offline protection.</p>
-                
+
                 <!-- <p><b>Satistics email</b></p> -->
-                <p>AWS Lambda sends email with statistics every week using nodemailer library. Email service is 
-                    protected with google OAuth2. Lambda is triggered with a Rule (Cron expression) in EventBridge 
-                    (CloudWatch Event). Default 3s Lambda timeout is increased in case of long requests. Debugged 
+                <p>AWS Lambda sends email with statistics every week using nodemailer library. Email service is
+                    protected with google OAuth2. Lambda is triggered with a Rule (Cron expression) in EventBridge
+                    (CloudWatch Event). Default 3s Lambda timeout is increased in case of long requests. Debugged
                     in CloudWatch logs. Sensitive info (keys) stored as Lambda environment variables.</p>
 
                 <!-- <p><b>Amazon Web Services (AWS) &ensp; OAuth2 &ensp; Express.js &ensp; PostgreSQL </b></p> -->
@@ -133,13 +133,15 @@
 
                 <h2>Online store</h2>
 
-                <p>React online store. Navigation is implemented with ReactRouter library. Authentication, 
-                    registration, database are processed with Firebase cloud service. User info, products 
-                    and shopping cart are managed with Redux, Reselect and stored with Redux-Persist. Components are styled 
-                    with SASS and Styled-components library. Notification component is managed with React 
+                <p>React online store. Navigation is implemented with ReactRouter library. Authentication,
+                    registration, database are processed with Firebase cloud service. User info, products
+                    and shopping cart are managed with Redux, Reselect and stored with Redux-Persist. Components are
+                    styled
+                    with SASS and Styled-components library. Notification component is managed with React
                     Context. Deployed on Netlify</p>
 
-                <p><b>React &ensp; Firebase &ensp; ReactRouter &ensp; Redux &ensp; Reselect &ensp; Redux-Persist &ensp; SASS &ensp; StyledComponents &ensp; Netlify</b></p>
+                <p><b>React &ensp; Firebase &ensp; ReactRouter &ensp; Redux &ensp; Reselect &ensp; Redux-Persist &ensp;
+                        SASS &ensp; StyledComponents &ensp; Netlify</b></p>
 
                 <p>
                     <a href="./projects_js_online_store.html">Learn more</a>
@@ -148,7 +150,8 @@
                 <p>
                     <a href="https://joyful-kulfi-39f626.netlify.app">Live demo</a>
                     /
-                    <a href="https://github.com/KirillTechnology/tech_store/tree/deploy5_Redux_Reselect_Persist">GitHub</a>
+                    <a
+                        href="https://github.com/KirillTechnology/tech_store/tree/deploy5_Redux_Reselect_Persist">GitHub</a>
                 </p>
 
             </div>
@@ -187,7 +190,8 @@
 
         <div class="content-center">
 
-            <video autoplay muted loop playsinline poster="./projects/js/carousel/carousel_poster.png" style="object-position: 50% 70%;">
+            <video autoplay muted loop playsinline poster="./projects/js/carousel/carousel_poster.png"
+                style="object-position: 50% 70%;">
                 <source src="./projects/js/carousel/carousel_demo_c.mp4" type="video/mp4">
             </video>
 
@@ -195,8 +199,8 @@
 
                 <h2>Carousel</h2>
 
-                <p>Slideshow made with Javascript, CSS and HTML. Autoplay is set to 3s. 
-                    When the slide is hovered, autoplay stops. When a cursor leaves the 
+                <p>Slideshow made with Javascript, CSS and HTML. Autoplay is set to 3s.
+                    When the slide is hovered, autoplay stops. When a cursor leaves the
                     carousel, the autoplay continues. Buttons are processed with a 'throttle'
                     function to allow the animation to stop before you can move to the next slide.</p>
 
